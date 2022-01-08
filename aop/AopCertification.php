@@ -389,7 +389,7 @@ function getSignatureHash($der = null)
 
 /**
  * Determine if one cert was used to sign another
- * Note that more than one CA cert can give a positive result, some certs
+ * Annotation that more than one CA cert can give a positive result, some certs
  * re-issue signing certs after having only changed the expiration dates.
  * @param string $cert - PEM encoded cert
  * @param string $caCert - PEM encoded cert that possibly signed $cert
